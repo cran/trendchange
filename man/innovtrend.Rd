@@ -9,6 +9,20 @@ innovtrend(x)
 \arguments{
 \item{x}{- Time series data vector}
 }
+\value{
+S  - Slope of the trend
+
+D  - Trend indicator
+
+CLlower90  - Lower Cofidence Limit at 90 percent
+CLupper90  - Uppler Cofidence Limit at 90 percent
+
+CLlower95  - Lower Cofidence Limit at 95 percent
+CLupper95  - Uppler Cofidence Limit at 95 percent
+
+CLlower99  - Lower Cofidence Limit at 99 percent
+CLupper99  - Uppler Cofidence Limit at 99 percent
+}
 \description{
 Innovative trend analysis method proposed by Zekai Sen (2011) is implemented in this function.
 }
