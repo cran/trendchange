@@ -2,7 +2,9 @@
 
 export(dfcusum)
 export(innovtrend)
+export(ipta)
 export(sqmk)
+importFrom(grDevices,rgb)
 importFrom(graphics,abline)
 importFrom(graphics,legend)
 importFrom(graphics,lines)
